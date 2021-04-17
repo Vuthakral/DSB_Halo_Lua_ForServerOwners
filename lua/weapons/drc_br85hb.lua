@@ -50,7 +50,6 @@ SWEP.Primary.RecoilDown		= 0.3
 SWEP.Primary.RecoilHoriz	= 25
 SWEP.Primary.Force			= 0.2
 SWEP.Primary.Damage			= 7
-SWEP.Primary.Ammo			= "ar2"
 SWEP.Primary.Automatic		= false
 SWEP.Primary.RPM			= 900
 SWEP.Primary.ClipSize		= 36
@@ -66,7 +65,7 @@ SWEP.Primary.SoundDistance 	= 1500
 
 SWEP.FireModes_CanAuto	= false
 SWEP.FireModes_CanBurst = true
-SWEP.FireModes_CanSemi	= true
+SWEP.FireModes_CanSemi	= false
 SWEP.FireModes_BurstShots = 3
 
 SWEP.Primary.CanMelee		= true
@@ -89,6 +88,10 @@ SWEP.Secondary.IronOutFP	= "vuthakral/halo/weapons/br55hb/zoom_out.wav"
 SWEP.Secondary.Scoped		= false
 SWEP.Secondary.ScopeMat		= "overlays/drc_halo_placeholder"
 SWEP.Secondary.IronFOV		= 50
+
+SWEP.AttachmentTable = {
+	AmmunitionTypes = {"drc_att_bprofile_halobr"}
+}
 
 SWEP.VElements = {
 	["ammo_counter"] = { type = "Quad", bone = "b_gun", rel = "", pos = Vector(1.493, 0, 5.9), angle = Angle(0, -90, 45), size = 0.009, draw_func = nil},

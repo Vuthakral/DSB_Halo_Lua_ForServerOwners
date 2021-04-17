@@ -48,7 +48,6 @@ SWEP.Primary.RecoilDown		= 0.4
 SWEP.Primary.RecoilHoriz	= 25
 SWEP.Primary.Force			= 0.2
 SWEP.Primary.Damage			= 12
-SWEP.Primary.Ammo			= "ar2"
 SWEP.Primary.Automatic		= true
 SWEP.Primary.RPM			= 650
 SWEP.Primary.ClipSize		= 32
@@ -79,7 +78,7 @@ SWEP.Primary.MeleeMissActivity	= ACT_VM_HITCENTER
 
 SWEP.FireModes_CanAuto	= true
 SWEP.FireModes_CanBurst = false
-SWEP.FireModes_CanSemi	= true
+SWEP.FireModes_CanSemi	= false
 SWEP.FireModes_BurstShots = 0
 
 SWEP.Primary.CanMelee		= true
@@ -101,6 +100,10 @@ SWEP.Secondary.Ironsights	= true
 SWEP.Secondary.Scoped		= false
 SWEP.Secondary.ScopeMat		= "overlays/draconic_scope"
 SWEP.Secondary.IronFOV		= 90
+
+SWEP.AttachmentTable = {
+	AmmunitionTypes = {"drc_att_bprofile_haloar"}
+}
 
 SWEP.VElements = {
 	["ammo_counter"] = { type = "Quad", bone = "gun", rel = "", pos = Vector(4.525, 0, 6.44), angle = Angle(0, -90, 70.733), size = 0.009, draw_func = nil}

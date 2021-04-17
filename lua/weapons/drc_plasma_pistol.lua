@@ -149,6 +149,10 @@ SWEP.OCLightBrightness	= 1
 SWEP.OCLightSize		= 150
 SWEP.OCLightDecayTime	= 250
 
+SWEP.AttachmentTable = {
+	AmmunitionTypes = {"drc_att_bprofile_haloplasma"}
+}
+
 SWEP.VElements = {
 	["OC_Flare"] = { type = "Sprite", sprite = "sprites/flashlight/glow01", bone = "b_gun", rel = "", pos = Vector(8.994, 0, 1.807), size = { x = 10, y = 10 }, color = Color(0, 255, 0, 255), nocull = true, additive = true, vertexalpha = true, vertexcolor = true, ignorez = false}
 }

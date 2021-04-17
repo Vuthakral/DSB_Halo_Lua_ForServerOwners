@@ -123,3 +123,7 @@ SWEP.Secondary.IronFOV		= 20
 SWEP.Secondary.ScopeScale	= 0.8
 SWEP.Secondary.ScopeWidth	= 2
 SWEP.Secondary.ScopeHeight	= 1
+
+SWEP.AttachmentTable = {
+	AmmunitionTypes = {"drc_att_bprofile_haloplasma"}
+}

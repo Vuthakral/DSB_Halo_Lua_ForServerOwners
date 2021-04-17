@@ -9,7 +9,7 @@ SWEP.WepSelectIcon 		= "vgui/entities/drchalo_gnr"
 
 SWEP.Manufacturer		= "Misriah Armory"
 SWEP.InfoName			= "Spartan Laser"
-SWEP.InfoDescription	= "The largest pain in my ass in this entire weapon pack."
+SWEP.InfoDescription	= "Why the fuck does the laser work in singleplayer,\n and show up for other players, but not for the user in multiplayer?!"
 
 SWEP.CrosshairColor		= Color(127, 220, 255, 255)
 SWEP.CrosshairShadow	= true
@@ -114,7 +114,7 @@ SWEP.OCRecoilUp			= 0.06
 SWEP.OCRecoilDown		= 0.03
 SWEP.OCRecoilHoriz		= 8
 SWEP.OCIronRecoilMul	= 1
-SWEP.OCForce			= 25
+SWEP.OCForce			= 5
 SWEP.OCDamage			= 500
 SWEP.OCAPS				= 20
 SWEP.OCHPS				= 420
@@ -128,6 +128,10 @@ SWEP.OCLightColor 		= Color(255, 2, 2)
 SWEP.OCLightBrightness	= 0.1
 SWEP.OCLightSize		= 250
 SWEP.OCLightDecayTime	= 250
+
+SWEP.AttachmentTable = {
+	AmmunitionTypes = {"drc_att_bprofile_halolaser"}
+}
 
 SWEP.VElements = {
 	["bar_back"] = { type = "Model", model = "models/props_phx/construct/wood/wood_boardx1.mdl", bone = "gun", rel = "", pos = Vector(9.472, -2.763, 2.707), angle = Angle(0, 90, 90), size = Vector(0.021, 0.059, 0.021), color = Color(0, 0, 0, 212), surpresslightning = true, material = "models/debug/debugwhite", skin = 0, bodygroup = {} },

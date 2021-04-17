@@ -125,3 +125,7 @@ SWEP.Primary.LightColor 		= Color(255, 30, 30)
 SWEP.Primary.LightBrightness	= 1
 SWEP.Primary.LightSize			= 150
 SWEP.Primary.LightDecayTime		= 1000
+
+SWEP.AttachmentTable = {
+	AmmunitionTypes = {"drc_att_bprofile_halolaser"}
+}

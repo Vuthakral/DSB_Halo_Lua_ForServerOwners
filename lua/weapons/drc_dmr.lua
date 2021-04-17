@@ -56,7 +56,6 @@ SWEP.Primary.RecoilDown		= 0.3
 SWEP.Primary.RecoilHoriz	= 25
 SWEP.Primary.Force			= 0.2
 SWEP.Primary.Damage			= 12
-SWEP.Primary.Ammo			= "ar2"
 SWEP.Primary.Automatic		= false
 SWEP.Primary.RPM			= 180
 SWEP.Primary.ClipSize		= 15
@@ -93,6 +92,10 @@ SWEP.Secondary.ScopeBlur 	= true
 SWEP.Secondary.ScopeBGCol 	= Color(0, 0, 0, 200)
 SWEP.Secondary.IronFOV		= 50
 SWEP.Secondary.ScopeScale	= 0.65
+
+SWEP.AttachmentTable = {
+	AmmunitionTypes = {"drc_att_bprofile_haloar"}
+}
 
 SWEP.VElements = {
 	["ammo_counter"] = { type = "Quad", bone = "b_gun", rel = "", pos = Vector(1.651, 0, 5.95), angle = Angle(0, -90, 90), size = 0.0032, draw_func = nil}

@@ -59,7 +59,6 @@ SWEP.Primary.RecoilDown		= 2
 SWEP.Primary.RecoilHoriz	= 15
 SWEP.Primary.Force			= 0.2
 SWEP.Primary.Damage			= 6
-SWEP.Primary.Ammo			= "Buckshot"
 SWEP.Primary.Automatic		= false
 SWEP.Primary.Delay			= 0.115
 SWEP.Primary.ClipSize		= 12
@@ -98,3 +97,7 @@ SWEP.Secondary.Ironsights	= true
 SWEP.Secondary.Scoped		= false
 SWEP.Secondary.ScopeMat		= "overlays/draconic_scope"
 SWEP.Secondary.IronFOV		= 90
+
+SWEP.AttachmentTable = {
+	AmmunitionTypes = {"drc_att_bprofile_haloshotgun"}
+}

@@ -49,7 +49,6 @@ SWEP.Primary.RecoilDown		= 0.3
 SWEP.Primary.RecoilHoriz	= 25
 SWEP.Primary.Force			= 0.2
 SWEP.Primary.Damage			= 5
-SWEP.Primary.Ammo			= "SMG1"
 SWEP.Primary.Automatic		= true
 SWEP.Primary.RPM			= 900
 SWEP.Primary.ClipSize		= 48
@@ -63,7 +62,7 @@ SWEP.Primary.Sound = Sound("drc.m7s_fire")
 
 SWEP.FireModes_CanAuto	= true
 SWEP.FireModes_CanBurst = false
-SWEP.FireModes_CanSemi	= true
+SWEP.FireModes_CanSemi	= false
 SWEP.FireModes_BurstShots = 0
 
 SWEP.Primary.CanMelee		= true
@@ -84,6 +83,10 @@ SWEP.Secondary.Ironsights	= true
 SWEP.Secondary.Scoped		= false
 SWEP.Secondary.ScopeMat		= "overlays/draconic_scope"
 SWEP.Secondary.IronFOV		= 60
+
+SWEP.AttachmentTable = {
+	AmmunitionTypes = {"drc_att_bprofile_halosmg"}
+}
 
 function SWEP:DoCustomInitialize()
 	local ply = self:GetOwner()

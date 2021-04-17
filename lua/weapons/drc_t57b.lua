@@ -54,7 +54,6 @@ SWEP.Primary.RecoilDown		= 0.3
 SWEP.Primary.RecoilHoriz	= 25
 SWEP.Primary.Force			= 0.2
 SWEP.Primary.Damage			= 12
-SWEP.Primary.Ammo			= "ar2"
 SWEP.Primary.Automatic		= false
 SWEP.Primary.RPM			= 300
 SWEP.Primary.ClipSize		= 20
@@ -115,7 +114,9 @@ SWEP.Primary.LightBrightness	= 1
 SWEP.Primary.LightSize			= 100
 SWEP.Primary.LightDecayTime		= 1000
 
-SWEP.NPCBurstShots = 1
+SWEP.AttachmentTable = {
+	AmmunitionTypes = {"drc_att_bprofile_halocarbine"}
+}
 
 function SWEP:DoCustomThink()
 	local ply = self:GetOwner()

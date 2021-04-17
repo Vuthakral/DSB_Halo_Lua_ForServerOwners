@@ -53,7 +53,6 @@ SWEP.Primary.RecoilDown		= 0.3
 SWEP.Primary.RecoilHoriz	= 25
 SWEP.Primary.Force			= 0.2
 SWEP.Primary.Damage			= 75
-SWEP.Primary.Ammo			= "XBowBolt"
 SWEP.Primary.Automatic		= false
 SWEP.Primary.RPM			= 80
 SWEP.Primary.ClipSize		= 4
@@ -98,7 +97,9 @@ SWEP.Secondary.ScopeScale	= 0.65
 SWEP.Secondary.ScopeWidth	= 1.75
 SWEP.Secondary.ScopeHeight	= 1
 
-SWEP.NPCBurstShots = 1
+SWEP.AttachmentTable = {
+	AmmunitionTypes = {"drc_att_bprofile_halosniper_hvap"}
+}
 
 function SWEP:DoCustomInitialize()
 	local ply = self:GetOwner()

@@ -122,12 +122,14 @@ SWEP.Secondary.ScopeScale	= 0.8
 SWEP.Secondary.ScopeWidth	= 2
 SWEP.Secondary.ScopeHeight	= 1
 
-SWEP.NPCBurstShots = 1
-
 SWEP.Primary.LightColor 		= Color(150, 40, 200)
 SWEP.Primary.LightBrightness	= 1
 SWEP.Primary.LightSize			= 150
 SWEP.Primary.LightDecayTime		= 1000
+
+SWEP.AttachmentTable = {
+	AmmunitionTypes = {"drc_att_bprofile_haloplasma"}
+}
 
 function SWEP:DoCustomPrimaryAttackEvents()
 	self:EmitSound("drc.SRS50_Rotate")

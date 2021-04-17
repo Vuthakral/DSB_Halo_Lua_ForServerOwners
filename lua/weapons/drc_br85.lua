@@ -49,7 +49,6 @@ SWEP.Primary.RecoilDown		= 0.3
 SWEP.Primary.RecoilHoriz	= 25
 SWEP.Primary.Force			= 0.2
 SWEP.Primary.Damage			= 7
-SWEP.Primary.Ammo			= "ar2"
 SWEP.Primary.Automatic		= false
 SWEP.Primary.RPM			= 900
 SWEP.Primary.ClipSize		= 36
@@ -65,7 +64,7 @@ SWEP.Primary.SoundDistance 	= 1500
 
 SWEP.FireModes_CanAuto	= false
 SWEP.FireModes_CanBurst = true
-SWEP.FireModes_CanSemi	= true
+SWEP.FireModes_CanSemi	= false
 SWEP.FireModes_BurstShots = 3
 
 SWEP.Primary.CanMelee		= true
@@ -91,6 +90,10 @@ SWEP.Secondary.ScopeBlur	= true
 SWEP.Secondary.ScopeBGCol = Color(0, 0, 0, 200)
 SWEP.Secondary.IronFOV		= 50
 SWEP.Secondary.ScopeScale	= 0.65
+
+SWEP.AttachmentTable = {
+	AmmunitionTypes = {"drc_att_bprofile_halobr"}
+}
 
 function SWEP:DrawCustom2DScopeElements()
 	local w = ScrW()

@@ -54,7 +54,6 @@ SWEP.Primary.RecoilDown		= 0.3
 SWEP.Primary.RecoilHoriz	= 25
 SWEP.Primary.Force			= 0.2
 SWEP.Primary.Damage			= 12
-SWEP.Primary.Ammo			= "SMG1"
 SWEP.Primary.Automatic		= true
 SWEP.Primary.RPM			= 480
 SWEP.Primary.ClipSize		= 40
@@ -91,6 +90,10 @@ SWEP.Secondary.Ironsights	= true
 SWEP.Secondary.Scoped		= false
 SWEP.Secondary.ScopeMat		= "overlays/draconic_scope"
 SWEP.Secondary.IronFOV		= 80
+
+SWEP.AttachmentTable = {
+	AmmunitionTypes = {"drc_att_bprofile_halospiker"}
+}
 
 function SWEP:DoCustomInitialize()
 	local ply = self:GetOwner()

@@ -50,7 +50,6 @@ SWEP.Primary.RecoilDown		= 0.1
 SWEP.Primary.RecoilHoriz	= 5
 SWEP.Primary.Force			= 0.2
 SWEP.Primary.Damage			= 7
-SWEP.Primary.Ammo			= "ar2"
 SWEP.Primary.Automatic		= false
 SWEP.Primary.RPM			= 900
 SWEP.Primary.ClipSize		= 36
@@ -66,7 +65,7 @@ SWEP.Primary.SoundDistance 	= 1500
 
 SWEP.FireModes_CanAuto	= false
 SWEP.FireModes_CanBurst = true
-SWEP.FireModes_CanSemi	= true
+SWEP.FireModes_CanSemi	= false
 SWEP.FireModes_BurstShots = 3
 
 SWEP.Primary.CanMelee		= true
@@ -92,6 +91,10 @@ SWEP.Secondary.ScopeBlur	= true
 SWEP.Secondary.ScopeBGCol 	= Color(0, 0, 0, 200)
 SWEP.Secondary.IronFOV		= 50
 SWEP.Secondary.ScopeScale	= 0.65
+
+SWEP.AttachmentTable = {
+	AmmunitionTypes = {"drc_att_bprofile_halobr"}
+}
 
 SWEP.VElements = {
 	["ammo_counter"] = { type = "Quad", bone = "b_gun", rel = "", pos = Vector(1.493, 0, 6.379), angle = Angle(0, -90, 63.881), size = 0.009, draw_func = nil}

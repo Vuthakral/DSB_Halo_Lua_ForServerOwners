@@ -108,3 +108,5 @@ drc_halo_suppressed_bullet
 drc_halo_t50srs_beam
 
 drc_halo_t50srs_flash
+
+drc_halo_c12_explode

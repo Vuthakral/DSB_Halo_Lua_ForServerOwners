@@ -48,7 +48,6 @@ SWEP.Primary.RecoilDown		= 0.3
 SWEP.Primary.RecoilHoriz	= 25
 SWEP.Primary.Force			= 0.2
 SWEP.Primary.Damage			= 7
-SWEP.Primary.Ammo			= "SMG1"
 SWEP.Primary.Automatic		= true
 SWEP.Primary.RPM			= 900
 SWEP.Primary.ClipSize		= 60
@@ -86,6 +85,10 @@ SWEP.Secondary.Ironsights	= true
 SWEP.Secondary.Scoped		= false
 SWEP.Secondary.ScopeMat		= "overlays/draconic_scope"
 SWEP.Secondary.IronFOV		= 90
+
+SWEP.AttachmentTable = {
+	AmmunitionTypes = {"drc_att_bprofile_haloar"}
+}
 
 SWEP.VElements = {
 	["ammo_counterV"] = { type = "Quad", bone = "frame gun", rel = "", pos = Vector(4.69, 0, 6.96), angle = Angle(0, -90, 72.402), size = 0.01, draw_func = nil}

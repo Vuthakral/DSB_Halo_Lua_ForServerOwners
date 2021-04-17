@@ -31,7 +31,7 @@ SWEP.ViewModelFlip		= false
 
 SWEP.UseHands			= true
 SWEP.ViewModel			= "models/vuthakral/halo/weapons/c_hum_plasmarifle_bloodhand.mdl"
-SWEP.WorldModel			= "models/vuthakral/halo/weapons/w_plasmarifle.mdl"
+SWEP.WorldModel			= "models/vuthakral/halo/weapons/w_plasmarifle_red.mdl"
 SWEP.VMPos 				= Vector(0, 0, 0)
 SWEP.VMAng 				= Vector(0, 0, 0)
 SWEP.VMPosCrouch		= Vector(0.3, -2, 0.3)
@@ -128,6 +128,10 @@ SWEP.Primary.LightColor 		= Color(255, 30, 30)
 SWEP.Primary.LightBrightness	= 1
 SWEP.Primary.LightSize			= 150
 SWEP.Primary.LightDecayTime		= 1000
+
+SWEP.AttachmentTable = {
+	AmmunitionTypes = {"drc_att_bprofile_haloplasma"}
+}
 
 function SWEP:DoCustomInitialize()
 	local ply = self:GetOwner()

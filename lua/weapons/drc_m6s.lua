@@ -44,7 +44,6 @@ SWEP.Primary.RecoilDown		= 0.3
 SWEP.Primary.RecoilHoriz	= 5
 SWEP.Primary.Force			= 0.2
 SWEP.Primary.Damage			= 9
-SWEP.Primary.Ammo			= "pistol"
 SWEP.Primary.Automatic		= false
 SWEP.Primary.RPM			= 360
 SWEP.Primary.ClipSize		= 12
@@ -87,6 +86,10 @@ SWEP.Secondary.ScopeBlur 	= true
 SWEP.Secondary.ScopeBGCol 	= Color(0, 0, 0, 200)
 SWEP.Secondary.IronFOV		= 38
 SWEP.Secondary.ScopeScale	= 0.65
+
+SWEP.AttachmentTable = {
+	AmmunitionTypes = {"drc_att_bprofile_halomagnum"}
+}
 
 function SWEP:DoCustomInitialize()
 	local ply = self:GetOwner()
